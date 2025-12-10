@@ -141,7 +141,7 @@ const ContactSection = () => {
                     key={key}
                     href={social.href}
                     target="_blank"
-                    className="text-primary hover:text-primary/20 transition-colors transition-transform duration-300 hover:scale-125"
+                    className="text-primary hover:text-primary/20 transition-all duration-300 hover:scale-125"
                   >
                     {social.icon}
                   </a>
